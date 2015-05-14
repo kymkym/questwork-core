@@ -1,0 +1,22 @@
+{
+	"name": "questwork/questwork-core",
+	"description": "Lightning fast core framework for PHP",
+	"keywords": ["questwork", "mvc"],
+	"type": "library",
+	"homepage": "https://github.com/tiepnguyen/questwork-core",
+	"license": "Questwork Platform",
+	"authors": [
+		{
+			"name": "Tiep Nguyen",
+			"homepage": "https://tiep.info"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Questwork\\": "src/Questwork/"
+		}
+	}
+}
